@@ -77,15 +77,6 @@ variable "machine_type" {
   type        = string
 }
 
-variable "max_firewalls" {
-  description = "The maximum number of firewalls to scale up to during scaling event."
-  default     = 1
-}
-
-variable "min_firewalls" {
-  description = "The minimum number of firewalls to scale down to (should always be more than 1)."
-  default     = 1
-}
 
 variable "csp_pin_id_secret" {
   description = "The firewall registration PIN ID for installing the device certificate onto the firewall."
