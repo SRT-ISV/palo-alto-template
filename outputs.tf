@@ -1,3 +1,3 @@
 output "template_id" {
-  value = google_compute_instance_template.main.id
+  value = module.template.template_id
 }
