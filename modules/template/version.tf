@@ -4,5 +4,3 @@ terraform {
     google = { version = ">= 4.54" }
   }
 }
-
-provider "google" {}
